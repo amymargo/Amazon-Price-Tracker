@@ -11,8 +11,8 @@ header = {
     'Accept': '*/*', 'Accept-Encoding': 'gzip, deflate, br', 'Accept-Language': 'en-GB,en-US;q=0.9,en;q=0.8'
 }
 
-account_sid = 'AC20cd1824c8d8f0d0e45989bfba4ae034'
-auth_token = '443cdfc15c45a876427ea7ae449428c8'
+account_sid = '*******************************'
+auth_token = '*******************************'
 def read_links_from_csv(filename):
     urls = []
     with open(filename, 'r') as file:
